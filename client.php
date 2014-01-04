@@ -158,7 +158,7 @@ if( !isset($_GET['token']) || !isset($_GET['thread']) ) {
 $token = verifyparam( "token", "/^\d{1,10}$/");
 $threadid = verifyparam( "thread", "/^\d{1,10}$/");
 $level = verifyparam( "level", "/^(ajaxed|simple|old)$/");
-$page['newstyle'] = 1;
+//$page['newstyle'] = 1;
 
 $thread = thread_by_id($threadid);
 if( !$thread || !isset($thread['ltoken']) || $token != $thread['ltoken'] ) {
