@@ -1,0 +1,244 @@
+.live-chat-body{width: 99%; height:200px; border:1px solid black; overflow-x:hidden; background-color: #EDEFF4;}
+.live-chat-sending {}
+
+.frontpage {background:url(../images/live-banner.jpg) top center no-repeat;} 
+
+.chat-widget {
+	
+	opacity:0.8;position:fixed; top: 100px;z-index:20; right:0px;color:#fff;cursor:pointer;border-radius:5px 0px 0px 5px;padding:20px 20px;
+	
+}
+.chatbox.widget {
+	margin-top: 0px; 
+	margin-right: 0px; 
+	margin-bottom: 0px; 
+	padding: 0px; 
+	border: 0px none; 
+	background: none repeat scroll 0% 0% transparent; 
+	overflow: hidden; 
+	position: fixed; 
+	z-index: 16000001; 
+	right: 10px; 
+	bottom: 0px; 
+	border-top-left-radius: 5px; 
+	border-top-right-radius: 5px; 
+	display: block; width: 290px; height: 436px; box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.1);
+	background: #ffffff;
+}
+
+.live-chat-header {
+	height: 36px;
+	background: none repeat scroll 0 0 #404040;
+}
+
+.live-chat-footer {
+	
+}
+
+textarea#live-chat-msg {width: 97%; margin: 10px auto; border: 1px solid #CCCCCC; padding: 4px;}
+/** Gtalk style chat **/
+
+.buttonAction {float: right; text-align: right; width: 73px; white-space: no-wrap;}
+
+.chatLineContainer {
+background-color: #FFFFFF;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    clear: both;
+    color: #222222;
+    font-size: 80%;
+    min-height: 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0.42em 0 0;
+    position: relative;
+}
+
+.kf {
+	padding-left: 5px;
+    padding-right: 5px;
+}
+.jp {
+	background-color: #FFFFFF;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    text-align: center;
+}
+.gv {
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #666666 #CCCCCC #CCCCCC;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Hl {
+    background: url("../images/button-google-mail.png") no-repeat scroll 0 -301px rgba(0, 0, 0, 0);
+    height: 24px;
+    width: 24px;
+}
+
+.Hq {
+    background: url("../images/button-google-mail.png") no-repeat scroll 0 -455px rgba(0, 0, 0, 0);
+    height: 24px;
+    width: 24px;
+}
+
+.Ha {
+    background: url("../images/button-google-mail.png") no-repeat scroll 0 -373px rgba(0, 0, 0, 0);
+    height: 24px;
+    width: 24px;
+}
+
+.Ha, .Hq, .Hl, .Hk {
+    cursor: pointer;
+    display: block;
+    opacity: 0.6;
+    position: relative;
+    top: 2px;
+    float: left;
+}
+
+#live-chat-header .ClientName {width: 40px; margin-left: 5px; padding: 10px 0; float: left; color: #ffffff; font: 12px lighter Arial, sans-serif;}
+
+.buttonAction button{cursor: pointer;}
+button.minimizeDg {
+	width: 24px;
+	height: 24px;
+	background: url("../images/gplus-image.png") no-repeat scroll -284px -288px rgba(0, 0, 0, 0);
+	opacity: 0.6;
+	border: none;
+}
+
+button.minimizeDg:hover {
+	
+	background: url("../images/gplus-image.png") no-repeat scroll -284px -288px rgba(0, 0, 0, 0);
+	opacity: 1;
+	background-color: #737373; 
+	
+}
+
+button.closeDg {
+	width: 24px;
+	height: 24px;
+	background: url("../images/gplus-image.png") no-repeat scroll -65px -67px rgba(0, 0, 0, 0);
+	opacity: 0.6;
+	border: none;
+}
+
+button.closeDg:hover {
+	background: url("../images/gplus-image.png") no-repeat scroll -65px -67px rgba(0, 0, 0, 0);
+	opacity: 1;
+	background-color: #737373; 
+}
+
+.live-chat-new-style {
+	display: block;
+	position: relative;
+	/* width: 100%; */
+	/* background-color: #ffffff; */
+	-moz-box-sizing: border-box;
+	clear: both;
+	padding: 7px 9px 11px;
+    vertical-align: top;
+}
+.live-chat-new-style .messageWrap {
+	
+	position: relative;
+}
+
+.live-chat-new-style.magent .messageWrap {
+	
+	float: left;
+}
+
+.live-chat-new-style.muser .messageWrap {
+	
+	float: right;
+}
+
+.live-chat-new-style .avatar {
+	position: absolute;
+	width: 32px; 
+	height: 32px;
+}
+
+.live-chat-new-style.magent .avatar {
+	left: -32px;
+}
+
+.live-chat-new-style.magent {
+	padding-left: 40px;
+	padding-right: 5px;
+	display: block;
+	
+}
+
+.live-chat-new-style.magent .messageWrap {
+	
+	background-color: #ffffff;
+	
+}
+
+.live-chat-new-style .messageWrap {
+	font-size: 13px lighter Arial, sans-serif;
+	color: #262626;
+	line-height: 16px;
+}
+
+.live-chat-new-style .timeSend {
+	margin-top: 4px;
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 11px;
+}
+
+.live-chat-new-style.magent .timeSend {
+	margin-top: 4px;
+	color: rgba(0, 0, 0, 0.3);
+	font-size: 11px;
+}
+
+.live-chat-new-style.muser {
+	padding-left: 5px;
+	padding-right: 35px;
+	
+	display: block;
+	
+}
+
+.live-chat-new-style.muser .avatar {
+	right: -32px;
+	bottom: 0;
+}
+
+
+.live-chat-new-style.mconn , .live-chat-new-style.mevent , .live-chat-new-style.minf {
+	color: rgba(0, 0, 0, 0.3);
+	width: 100%;
+	padding: 4px 4px 4px 10px;
+	background: none;
+	text-align: center;
+	font-size: 11px;
+}
+
+div.nagent {}
+.live-chat-new-style.magent .messageWrap {
+display: block;
+padding: 4px; 
+background-color: #F7F7F7;
+    background-image: -moz-linear-gradient(center bottom , #F2F2F2, #FFFFFF);
+}
+
+div.nuser {}
+.live-chat-new-style.muser .messageWrap {
+display: block;
+clear: both;
+float: right;
+padding: 4px; background-color: #DBEDFE;
+background-image: -moz-linear-gradient(center bottom , #C7DEFE, #E7F1FE);
+} 
