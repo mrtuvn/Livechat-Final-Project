@@ -92,6 +92,7 @@ function prepare_html_message($text)
 
 /** CUSTOM FUNCTION HTML CHAT **/
 /* first commit check from branchs develop repos */
+/* nicely done ! . New branchs created */
 
 function message_to_html_newstyle($msg){
 	if (isset($kind) && $kind == 'user') return message_to_html_client($msg);
